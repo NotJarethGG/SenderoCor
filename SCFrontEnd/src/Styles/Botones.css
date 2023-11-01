@@ -1,0 +1,98 @@
+/* Estilos para los botones */
+.BtnNav {
+  background-color: #007bff; /* Color de fondo azul */
+  color: white; /* Color del texto en blanco */
+  border: none; /* Sin borde */
+  border-radius: 4px; /* Borde redondeado */
+  padding: 10px 20px; /* Espaciado interno */
+  cursor: pointer; /* Cambia el cursor a una mano */
+  margin: 0;
+}
+
+.btnAddAdmin {
+  display: flex;
+  justify-content: flex-end; /* Mueve el botón hacia la derecha */
+  margin-top: 10px;
+}
+
+.loading {
+  background-color: #ffc107; /* Color de fondo amarillo */
+  color: #333; /* Color del texto en un tono más oscuro */
+  border: none;
+  border-radius: 4px;
+  padding: 10px 20px;
+  cursor: not-allowed; /* Cursor de no disponible */
+}
+
+.error {
+  background-color: #dc3545; /* Color de fondo rojo */
+  color: white; /* Color del texto en blanco */
+  border: none;
+  border-radius: 4px;
+  padding: 10px 20px;
+  cursor: not-allowed;
+}
+
+/* Botones de eliminar y modificar */
+.btnEliminar, .btnModificar, .btnCancelar {
+  background-color: #e74c3c; /* Color de fondo rojo */
+  color: white; /* Color del texto en blanco */
+  border: none; /* Sin borde */
+  border-radius: 4px; /* Borde redondeado */
+  padding: 10px 20px; /* Espaciado interno */
+  cursor: pointer; /* Cambia el cursor a una mano */
+  margin-right: 10px; /* Espaciado a la derecha (ajusta según tus necesidades) */
+}
+
+/* Estilo al pasar el mouse sobre los botones */
+.btnEliminar:hover, .btnModificar:hover, .btnCancelar:hover {
+  background-color: #c0392b; /* Cambia el color de fondo al pasar el mouse */
+}
+
+/* Botón de guardar */
+.btnGuardar {
+  background-color: #28a745; /* Color de fondo verde */
+  color: white; /* Color del texto en blanco */
+  border: none; /* Sin borde */
+  border-radius: 4px; /* Borde redondeado */
+  padding: 10px 20px; /* Espaciado interno */
+  cursor: pointer; /* Cambia el cursor a una mano */
+}
+
+/* Estilo al pasar el mouse sobre el botón de guardar */
+.btnGuardar:hover {
+  background-color: #1e7e34; /* Cambia el color de fondo al pasar el mouse */
+}
+
+/* Botón de registro */
+.btnRegistrarAdmin {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: #fff;
+  text-decoration: none;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+/* Cambiar el color de fondo en el hover */
+.btnRegistrarAdmin:hover {
+  background-color: #0056b3;
+}
+
+/* Estilo para cuando se presiona el botón */
+.btnRegistrarAdmin:active {
+  background-color: #003c80;
+}
+
+/* Estilo para cuando el botón está deshabilitado */
+.btnRegistrarAdmin[disabled] {
+  background-color: #ccc;
+  cursor: not-allowed;
+}
+
+/* Estilo para el texto dentro del botón */
+.btnRegistrarAdmin span {
+  font-weight: bold;
+}
